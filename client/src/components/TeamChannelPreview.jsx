@@ -13,7 +13,7 @@ const TeamChannelPreview = ({
 
   const ChannelPreview = () => (
     <p className="channel-preview__item">
-      {channel?.data?.name || channel?.data?.id}
+      # {channel?.data?.name || channel?.data?.id}
     </p>
   );
 
